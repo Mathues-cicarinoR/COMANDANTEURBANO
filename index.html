@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Comandante Urbano | Passeios Aéreos em Porto de Galinhas</title>
+    <meta name="description" content="Viva a experiência única de um voo panorâmico sobre as praias de Porto de Galinhas e Maracaípe com o Comandante Urbano. Voo 100% seguro, visual inesquecível e parcelamento em até 4x.">
+    <meta name="keywords" content="voo panorâmico, porto de galinhas, maracaípe, passeio aéreo, paramotor, parapente, comandante urbano, turismo pernambuco">
+    <meta name="author" content="Comandante Urbano">
+    <meta name="robots" content="index, follow">
+    
+    <meta property="og:title" content="Comandante Urbano | Passeios Aéreos em Porto de Galinhas">
+    <meta property="og:description" content="Viva a experiência única de um voo panorâmico sobre as praias de Porto de Galinhas e Maracaípe. Agende seu voo!">
+    <meta property="og:image" content="https://seusite.com.br/img/fundo.webp"> <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#10897b',      
+                        'primary-hover': '#0c6b5f',
+                        navy: '#05122d',         
+                        body: '#F8F9FA',         
+                        dark: '#111827',         
+                        textMain: '#1F2937',     
+                        textMuted: '#6B7280',    
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Ajustes do Carrossel */
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+        .swiper-slide {
+            background-size: cover;
+            background-position: center;
+        }
+        .swiper-slide::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, rgba(17,24,39,0.8) 0%, rgba(17,24,39,0.5) 100%);
+        }
+    </style>
+</head>
+<body class="bg-body text-textMain antialiased leading-relaxed">
+
+    <header class="fixed top-0 w-full bg-dark/95 backdrop-blur-md border-b border-gray-800 z-50 py-3 transition-all shadow-lg">
+        <div class="max-w-7xl mx-auto px-5 flex justify-between items-center">
+            <a href="#" class="transform hover:scale-105 transition-transform duration-300">
+                <img src="img/LOGO.png" alt="Logo Comandante Urbano Passeios Aéreos" class="h-14 object-contain">
+            </a>
+            
+            <nav class="hidden md:flex gap-8 items-center text-white" aria-label="Navegação Principal">
+                <a href="#inicio" class="text-sm font-semibold uppercase hover:text-primary hover:-translate-y-1 transition-all duration-300">Início</a>
+                <a href="#quem-somos" class="text-sm font-semibold uppercase hover:text-primary hover:-translate-y-1 transition-all duration-300">Quem Somos</a>
+                <a href="#experiencia" class="text-sm font-semibold uppercase hover:text-primary hover:-translate-y-1 transition-all duration-300">Experiência</a>
+                <a href="#avaliacoes" class="text-sm font-semibold uppercase hover:text-primary hover:-translate-y-1 transition-all duration-300">Avaliações</a>
+                <a href="#voo" class="text-sm font-semibold uppercase hover:text-primary hover:-translate-y-1 transition-all duration-300">O Voo</a>
+            </nav>
+
+            <a href="https://wa.me/558189032410?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20detalhes%20sobre%20a%20experiência%20do%20voo%20panorâmico." target="_blank" rel="noopener noreferrer"
+               class="bg-primary hover:bg-primary-hover hover:scale-105 hover:shadow-[0_0_15px_rgba(16,137,123,0.5)] text-white px-6 py-2.5 rounded font-semibold transition-all duration-300">
+                Falar Agora
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="relative pt-40 pb-24 min-h-[100vh] flex items-center justify-center text-center overflow-hidden">
+            
+            <div class="swiper-container mySwiper" aria-hidden="true">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image: url('img/fundo.webp');"></div>
+                    <div class="swiper-slide" style="background-image: url('img/fundo2.webp');"></div>
+                    <div class="swiper-slide" style="background-image: url('img/fundo3.webp');"></div>
+                </div>
+            </div>
+
+            <div class="relative z-10 max-w-5xl mx-auto px-5 w-full text-white">
+                <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6 tracking-tight drop-shadow-lg">
+                    Viva uma experiência única em <span class="text-primary">Porto de Galinhas.</span>
+                </h1>
+                <p class="text-lg md:text-xl text-gray-200 mb-10 max-w-2xl mx-auto drop-shadow-md">
+                    Sinta a liberdade de voar pelas deslumbrantes praias de Porto de Galinhas e Maracaípe, com total segurança e um visual inesquecível.
+                </p>
+                <a href="https://wa.me/558189032410?text=Olá,%20Comandante%20Urbano!%20Vi%20o%20site%20e%20quero%20garantir%20minha%20vaga%20para%20o%20voo%20em%20Porto%20de%20Galinhas.%20Como%20faço%20para%20agendar?" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-3 bg-primary text-white px-8 py-4 text-lg font-semibold rounded uppercase transition-all duration-300 hover:bg-white hover:text-primary hover:scale-105 hover:shadow-xl w-full md:w-auto">
+                    Agendar Meu Voo Agora <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </a>
+            </div>
+        </section>
+
+        <section id="quem-somos" class="py-24 bg-white">
+            <div class="max-w-7xl mx-auto px-5 flex flex-col md:flex-row items-center gap-16">
+                <div class="md:w-1/2 group">
+                    <div class="relative overflow-hidden rounded-2xl shadow-2xl">
+                        <img src="img/comandante.jpg" alt="Comandante Urbano preparado para voo panorâmico em Porto de Galinhas" class="w-full h-[500px] object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 border-4 border-primary rounded-2xl scale-95 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-500"></div>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <h3 class="text-primary font-bold uppercase tracking-wider mb-2">Conheça o Piloto</h3>
+                    <h2 class="text-3xl md:text-4xl font-extrabold mb-6 text-navy">Quem é o Comandante Urbano?</h2>
+                    <p class="text-textMuted text-lg mb-6 leading-relaxed">
+                        Com anos de experiência nos céus e uma paixão inabalável por voar, o Comandante Urbano é especialista em proporcionar voos panorâmicos seguros e emocionantes no litoral de Pernambuco.
+                    </p>
+                    <p class="text-textMuted text-lg mb-8 leading-relaxed">
+                        Nossa missão é garantir que cada passageiro viva um momento mágico, unindo adrenalina, contemplação e o mais alto padrão de segurança em nossos equipamentos. Você está em boas mãos!
+                    </p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center gap-3 font-semibold text-textMain"><i class="fa-solid fa-check-circle text-primary" aria-hidden="true"></i> Piloto Credenciado e Experiente</li>
+                        <li class="flex items-center gap-3 font-semibold text-textMain"><i class="fa-solid fa-check-circle text-primary" aria-hidden="true"></i> Equipamentos de Última Geração</li>
+                        <li class="flex items-center gap-3 font-semibold text-textMain"><i class="fa-solid fa-check-circle text-primary" aria-hidden="true"></i> Atendimento Humanizado</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="estatisticas" class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-5 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div>
+                    <strong class="block text-4xl md:text-5xl font-extrabold text-primary mb-2">
+                        <span class="counter" data-target="100">0</span>%
+                    </strong>
+                    <span class="font-semibold uppercase text-navy tracking-wide text-sm">Segurança</span>
+                </div>
+                <div>
+                    <strong class="block text-4xl md:text-5xl font-extrabold text-primary mb-2">
+                        <span class="counter" data-target="12">0</span>m
+                    </strong>
+                    <span class="font-semibold uppercase text-navy tracking-wide text-sm">De Voo Médio</span>
+                </div>
+                <div>
+                    <strong class="block text-4xl md:text-5xl font-extrabold text-primary mb-2">
+                        +<span class="counter" data-target="1100">0</span>
+                    </strong>
+                    <span class="font-semibold uppercase text-navy tracking-wide text-sm">Voos realizados</span>
+                </div>
+                <div>
+                    <strong class="block text-4xl md:text-5xl font-extrabold text-primary mb-2">
+                        +<span class="counter" data-target="20">0</span>
+                    </strong>
+                    <span class="font-semibold uppercase text-navy tracking-wide text-sm">Opções de horários</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="experiencia" class="py-20 bg-body">
+            <div class="max-w-7xl mx-auto px-5">
+                <h2 class="text-3xl md:text-4xl font-extrabold mb-12 text-center text-navy">Nossos Diferenciais</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                    <div class="bg-white p-8 rounded-xl border border-gray-100 shadow-md hover:shadow-2xl hover:-translate-y-3 hover:border-primary transition-all duration-500 group">
+                        <div class="w-16 h-16 bg-body rounded-full flex items-center justify-center mb-6 group-hover:bg-primary transition-colors duration-500">
+                            <i class="fa-solid fa-camera text-2xl text-primary group-hover:text-white transition-colors duration-500" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-navy">Visual Deslumbrante</h3>
+                        <p class="text-textMuted text-sm md:text-base">Sobrevoe as famosas piscinas naturais de Porto de Galinhas e o belíssimo coqueiral do Pontal de Maracaípe.</p>
+                    </div>
+                    
+                    <div class="bg-white p-8 rounded-xl border border-gray-100 shadow-md hover:shadow-2xl hover:-translate-y-3 hover:border-primary transition-all duration-500 group">
+                        <div class="w-16 h-16 bg-body rounded-full flex items-center justify-center mb-6 group-hover:bg-primary transition-colors duration-500">
+                            <i class="fa-solid fa-shield-halved text-2xl text-primary group-hover:text-white transition-colors duration-500" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-navy">Segurança Rigorosa</h3>
+                        <p class="text-textMuted text-sm md:text-base">Equipamentos de ponta constantemente revisados e piloto altamente experiente para garantir um voo tranquilo.</p>
+                    </div>
+                    
+                    <div class="bg-white p-8 rounded-xl border border-gray-100 shadow-md hover:shadow-2xl hover:-translate-y-3 hover:border-primary transition-all duration-500 group">
+                        <div class="w-16 h-16 bg-body rounded-full flex items-center justify-center mb-6 group-hover:bg-primary transition-colors duration-500">
+                            <i class="fa-solid fa-credit-card text-2xl text-primary group-hover:text-white transition-colors duration-500" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-navy">Pagamento Facilitado</h3>
+                        <p class="text-textMuted text-sm md:text-base">A experiência que você merece com facilidade na hora de pagar. Dividimos o seu voo em até 4 vezes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="voo" class="py-24 bg-body">
+            <div class="max-w-7xl mx-auto px-5">
+                <h2 class="text-3xl md:text-4xl font-extrabold mb-12 text-center text-navy">Detalhes da Experiência</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-white border border-gray-200 p-10 rounded-xl transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:border-primary">
+                        <h3 class="text-2xl font-bold mb-6 flex items-center gap-3 text-navy">
+                            <div class="bg-primary/10 p-3 rounded-lg"><i class="fa-solid fa-map-location-dot text-primary" aria-hidden="true"></i></div> O Percurso
+                        </h3>
+                        <ul class="space-y-4 mb-8 text-textMain">
+                            <li class="flex items-start gap-3"><span class="text-primary font-bold mt-1">✓</span> Saída da praia de Maracaípe (coqueiral)</li>
+                            <li class="flex items-start gap-3"><span class="text-primary font-bold mt-1">✓</span> Passagem pelas piscinas naturais</li>
+                            <li class="flex items-start gap-3"><span class="text-primary font-bold mt-1">✓</span> Vista panorâmica de Porto de Galinhas</li>
+                            <li class="flex items-start gap-3"><span class="text-primary font-bold mt-1">✓</span> Retorno ao Pontal do Maracaípe</li>
+                        </ul>
+                        <a href="https://wa.me/558189032410?text=Olá,%20Comandante!%20Estava%20lendo%20sobre%20o%20percurso%20do%20voo%20no%20site%20e%20fiquei%20com%20algumas%20dúvidas.%20Pode%20me%20ajudar?" target="_blank" rel="noopener noreferrer" class="block w-full text-center py-3 border-2 border-primary text-primary rounded font-semibold transition-all duration-300 hover:bg-primary hover:text-white hover:shadow-lg">
+                            Tirar Dúvidas
+                        </a>
+                    </div>
+
+                    <div class="bg-white border border-gray-200 p-10 rounded-xl transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:border-primary">
+                        <h3 class="text-2xl font-bold mb-6 flex items-center gap-3 text-navy">
+                            <div class="bg-primary/10 p-3 rounded-lg"><i class="fa-solid fa-clock text-primary" aria-hidden="true"></i></div> Informações Úteis
+                        </h3>
+                        <ul class="space-y-4 mb-8 text-textMain">
+                            <li class="flex items-start gap-3"><span class="text-primary font-bold mt-1">✓</span> <strong>Duração:</strong> 10 a 12 minutos de voo</li>
+                            <li class="flex items-start gap-3"><span class="text-primary font-bold mt-1">✓</span> <strong>Horário:</strong> Todos os dias, das 09h às 17h30</li>
+                            <li class="flex items-start gap-3"><span class="text-primary font-bold mt-1">✓</span> <strong>Local:</strong> Próximo ao DRONE HUMANO</li>
+                            <li class="flex items-start gap-3 text-sm italic text-textMuted mt-4">* Sujeito a condições climáticas</li>
+                        </ul>
+                        <a href="https://wa.me/558189032410?text=Olá!%20Gostaria%20de%20verificar%20a%20disponibilidade%20de%20dias%20e%20horários%20para%20realizar%20o%20voo.%20Teria%20vaga%20para%20os%20próximos%20dias?" target="_blank" rel="noopener noreferrer" class="block w-full text-center py-3 border-2 border-primary text-primary rounded font-semibold transition-all duration-300 hover:bg-primary hover:text-white hover:shadow-lg">
+                            Verificar Disponibilidade
+                        </a>
+                    </div>
+                </div>
+
+                <div class="mt-16 text-center p-12 bg-navy rounded-2xl shadow-2xl relative overflow-hidden group hover:-translate-y-2 transition-transform duration-500 border border-gray-800">
+                    <div class="absolute -top-24 -right-24 w-64 h-64 bg-primary opacity-20 rounded-full blur-3xl group-hover:bg-primary group-hover:opacity-30 transition-all duration-700"></div>
+                    
+                    <h2 class="text-2xl md:text-3xl font-bold mb-4 text-white relative z-10">Investimento Inesquecível</h2>
+                    <div class="text-5xl md:text-7xl font-extrabold text-primary my-6 leading-none relative z-10">R$ 400,00</div>
+                    <p class="text-lg text-gray-300 mb-8 relative z-10">Valor por pessoa. Podemos dividir em até <strong class="text-white">4 vezes</strong>.</p>
+                    
+                    <a href="https://wa.me/558189032410?text=Olá!%20Gostaria%20de%20agendar%20meu%20voo." target="_blank" rel="noopener noreferrer"
+                       class="inline-flex items-center justify-center gap-3 bg-primary hover:bg-white hover:text-navy text-white px-8 py-4 text-lg font-bold rounded transition-all duration-300 w-full md:w-auto relative z-10 hover:shadow-[0_0_20px_rgba(16,137,123,0.6)]">
+                        <i class="fa-brands fa-whatsapp text-2xl" aria-hidden="true"></i> Garantir Minha Vaga
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="avaliacoes" class="py-24 bg-white">
+            <div class="max-w-7xl mx-auto px-5">
+                <h2 class="text-3xl md:text-4xl font-extrabold mb-4 text-center text-navy">O que dizem nossos passageiros</h2>
+                <p class="text-center text-textMuted mb-12 max-w-2xl mx-auto">Experiências reais de quem já voou com o Comandante Urbano.</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-body p-8 rounded-xl border border-gray-200 shadow-sm hover:shadow-lg hover:-translate-y-2 transition-all duration-300">
+                        <div class="flex gap-1 text-[#FBBF24] mb-4 text-sm" aria-label="Avaliação de 5 estrelas">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-textMuted italic mb-6 leading-relaxed">"Sensacional! O visual de Porto de Galinhas lá de cima é de tirar o fôlego. O Comandante me passou muita segurança desde a decolagem. Recomendo demais!"</p>
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-bold text-lg">M</div>
+                            <div>
+                                <h4 class="font-bold text-navy">Marcos Silva</h4>
+                                <span class="text-sm text-gray-500">Turista de São Paulo</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-body p-8 rounded-xl border border-gray-200 shadow-sm hover:shadow-lg hover:-translate-y-2 transition-all duration-300">
+                        <div class="flex gap-1 text-[#FBBF24] mb-4 text-sm" aria-label="Avaliação de 5 estrelas">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-textMuted italic mb-6 leading-relaxed">"Foi o ponto alto da minha viagem a Pernambuco. O voo é super tranquilo, a vista das piscinas naturais é perfeita. Atendimento nota 1000!"</p>
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-navy text-white rounded-full flex items-center justify-center font-bold text-lg">A</div>
+                            <div>
+                                <h4 class="font-bold text-navy">Ana Beatriz</h4>
+                                <span class="text-sm text-gray-500">Turista de Minas Gerais</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-body p-8 rounded-xl border border-gray-200 shadow-sm hover:shadow-lg hover:-translate-y-2 transition-all duration-300">
+                        <div class="flex gap-1 text-[#FBBF24] mb-4 text-sm" aria-label="Avaliação de 5 estrelas">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-textMuted italic mb-6 leading-relaxed">"Sempre tive um pouco de medo de altura, mas a equipe me deixou super calmo. Foi a melhor sensação de liberdade que já tive. Vale cada centavo!"</p>
+                        <div class="flex items-center gap-4">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80" alt="Foto do cliente Rafael Costa" class="w-12 h-12 rounded-full object-cover">
+                            <div>
+                                <h4 class="font-bold text-navy">Rafael Costa</h4>
+                                <span class="text-sm text-gray-500">Morador de Recife</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <a href="https://wa.me/558189032410?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20detalhes%20sobre%20a%20experiência%20do%20voo%20panorâmico" target="_blank" rel="noopener noreferrer" aria-label="Falar com especialista no WhatsApp" class="fixed bottom-6 right-6 bg-green-500 text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-[0_0_15px_rgba(34,197,94,0.5)] hover:bg-green-600 hover:scale-110 hover:-translate-y-1 transition-all duration-300 z-50">
+        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+    </a>
+
+    <footer class="bg-dark text-gray-400 py-12 text-center border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-2xl font-bold text-white mb-2">COMANDANTE URBANO<span class="text-gray-500">.</span></h2>
+            <p class="mb-6">Atendimento rápido, transparente e especializado.</p>
+            <div class="flex justify-center space-x-6 mb-8">
+                <a href="https://www.instagram.com/comandanteurbano?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" aria-label="Siga-nos no Instagram" class="text-gray-400 hover:text-white hover:-translate-y-1 transition-all duration-300" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram text-2xl" aria-hidden="true"></i></a>
+                <a href="#" aria-label="Página no Facebook" class="text-gray-400 hover:text-white hover:-translate-y-1 transition-all duration-300" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook text-2xl" aria-hidden="true"></i></a>
+                <a href="https://wa.me/558189032410?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20detalhes%20sobre%20a%20experiência%20do%20voo%20panorâmico." target="_blank" rel="noopener noreferrer" aria-label="Entre em contato no WhatsApp" class="text-gray-400 hover:text-white hover:-translate-y-1 transition-all duration-300"><i class="fa-brands fa-whatsapp text-2xl" aria-hidden="true"></i></a>
+            </div>
+            <p class="text-sm">&copy; 2026 Comandante Urbano Passeios Aéreos. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 0,
+            centeredSlides: true,
+            effect: "fade",
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false,
+            },
+        });
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const counters = document.querySelectorAll('.counter');
+            const statsSection = document.querySelector('#estatisticas');
+            let animated = false; // Evita que a animação rode mais de uma vez
+
+            // Função que faz o número subir
+            const animateCounters = () => {
+                counters.forEach(counter => {
+                    const target = +counter.getAttribute('data-target');
+                    const duration = 2000; // Duração total da animação (2 segundos)
+                    const increment = target / (duration / 16); // 16ms é aprox 60fps
+                    let currentCount = 0;
+
+                    const updateCounter = () => {
+                        currentCount += increment;
+                        if (currentCount < target) {
+                            counter.innerText = Math.ceil(currentCount);
+                            requestAnimationFrame(updateCounter);
+                        } else {
+                            counter.innerText = target; // Garante que termine no número exato
+                        }
+                    };
+                    updateCounter();
+                });
+            };
+
+            // Observador para verificar se a seção apareceu na tela
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting && !animated) {
+                        animateCounters();
+                        animated = true; // Marca como animado para não repetir
+                    }
+                });
+            }, { threshold: 0.5 }); // Dispara quando 50% da seção estiver visível
+
+            if (statsSection) {
+                observer.observe(statsSection);
+            }
+        });
+    </script>
+</body>
+</html>

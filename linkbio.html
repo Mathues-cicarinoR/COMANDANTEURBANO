@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links | Comandante Urbano Passeios Aéreos</title>
+    <meta name="description" content="Acesse nossos canais de atendimento, WhatsApp, site e redes sociais do Comandante Urbano.">
+    <link rel="icon" type="image/png" href="./img/LOGO.png">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#10897b',      /* Verde Teal da logo */
+              'primary-hover': '#0c6b5f',
+              fundo: '#05122d',        /* Azul escuro da logo */
+            }
+          }
+        }
+      }
+    </script>
+
+    <style>
+        .fade-in-up {
+            animation: fadeInUp 0.6s ease-out forwards;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        @keyframes fadeInUp {
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .delay-100 { animation-delay: 100ms; }
+        .delay-200 { animation-delay: 200ms; }
+        .delay-300 { animation-delay: 300ms; }
+        .delay-400 { animation-delay: 400ms; }
+    </style>
+</head>
+<body class="bg-fundo text-white font-sans min-h-[100dvh] flex flex-col items-center py-8 md:py-12 px-4 relative overflow-x-hidden">
+
+    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[300px] h-[300px] md:w-[600px] md:h-[600px] bg-primary/20 rounded-full blur-[100px] md:blur-[140px] -z-10 pointer-events-none"></div>
+
+    <div class="w-full max-w-md mx-auto flex flex-col items-center flex-grow">
+        
+        <div class="w-full flex justify-end items-center px-2 mb-6 fade-in-up">
+            <button class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-white/10 transition-colors" onclick="navigator.share({title: 'Comandante Urbano Passeios Aéreos', url: window.location.href}).catch(console.error);" aria-label="Compartilhar página">
+                <i class="fa-solid fa-arrow-up-from-bracket text-gray-300"></i>
+            </button>
+        </div>
+
+        <div class="text-center mb-8 fade-in-up flex flex-col items-center">
+            <img src="./img/LOGO.png" alt="Logo Comandante Urbano" class="w-32 h-32 md:w-40 md:h-40 object-contain mb-4 drop-shadow-[0_0_15px_rgba(16,137,123,0.3)]">
+            
+            <p class="text-xs md:text-sm text-primary mt-4 font-bold tracking-wide leading-relaxed px-4">
+                EXPERIÊNCIA ÚNICA EM PORTO DE GALINHAS
+                <span class="block mt-2 font-medium text-gray-300">VOOS PANORÂMICOS - FOTOS - VÍDEOS</span>
+            </p>
+        </div>
+
+        <div class="flex gap-6 mb-8 fade-in-up delay-100">
+            <a href="https://wa.me/558189032410?text=Olá,%20Comandante!%20Vim%20pelo%20link%20da%20Bio%20e%20gostaria%20de%20agendar%20meu%20voo%20panorâmico." target="_blank" rel="noopener noreferrer" class="text-3xl text-gray-300 hover:text-[#25D366] hover:scale-110 transition-all" aria-label="WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="https://www.instagram.com/comandanteurbano?igsh=dDIwbXgzbG1pbjU1" target="_blank" rel="noopener noreferrer" class="text-3xl text-gray-300 hover:text-[#E1306C] hover:scale-110 transition-all" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+
+        <div class="w-full space-y-4">
+            
+            <a href="https://wa.me/558189032410?text=Olá,%20Comandante!%20Vim%20pelo%20link%20da%20Bio%20e%20gostaria%20de%20agendar%20meu%20voo%20panorâmico." target="_blank" rel="noopener noreferrer" 
+               class="fade-in-up delay-100 group relative w-full flex items-center justify-center p-4 bg-white/5 border border-white/10 rounded-xl hover:bg-[#25D366] hover:border-[#25D366] transition-all duration-300 overflow-hidden shadow-lg">
+                <i class="fa-brands fa-whatsapp absolute left-6 text-xl text-gray-400 group-hover:text-white transition-colors"></i>
+                <span class="font-semibold text-gray-200 group-hover:text-white text-sm md:text-base">Agendar meu Voo (WhatsApp)</span>
+                <i class="fa-solid fa-ellipsis-vertical absolute right-6 text-gray-500 group-hover:text-white/50"></i>
+            </a>
+
+            <a href="https://www.instagram.com/comandanteurbano?igsh=dDIwbXgzbG1pbjU1" target="_blank" rel="noopener noreferrer" 
+               class="fade-in-up delay-200 group relative w-full flex items-center justify-center p-4 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 transition-all duration-300 shadow-lg">
+                <i class="fa-brands fa-instagram absolute left-6 text-xl text-gray-400 group-hover:text-white transition-colors"></i>
+                <span class="font-semibold text-gray-200 group-hover:text-white text-sm md:text-base">Siga nosso Instagram</span>
+                <i class="fa-solid fa-ellipsis-vertical absolute right-6 text-gray-500 group-hover:text-white/50"></i>
+            </a>
+
+            <a href="index.html" target="_self" 
+               class="fade-in-up delay-300 group relative w-full flex items-center justify-center p-4 bg-white/5 border border-white/10 rounded-xl hover:bg-primary hover:border-primary transition-all duration-300 shadow-lg">
+                <i class="fa-solid fa-globe absolute left-6 text-xl text-gray-400 group-hover:text-white transition-colors"></i>
+                <span class="font-semibold text-gray-200 group-hover:text-white text-sm md:text-base">Acessar Site Oficial</span>
+                <i class="fa-solid fa-ellipsis-vertical absolute right-6 text-gray-500 group-hover:text-white/50"></i>
+            </a>
+
+            <a href="https://maps.google.com/?q=Praia+de+Maracaípe" target="_blank" rel="noopener noreferrer" 
+               class="fade-in-up delay-400 group relative w-full flex items-center justify-center p-4 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 transition-all duration-300 shadow-lg">
+                <i class="fa-solid fa-map-location-dot absolute left-6 text-xl text-gray-400 group-hover:text-white transition-colors"></i>
+                <span class="font-semibold text-gray-200 group-hover:text-white text-sm md:text-base">Como Chegar (Ponto de Encontro)</span>
+                <i class="fa-solid fa-ellipsis-vertical absolute right-6 text-gray-500 group-hover:text-white/50"></i>
+            </a>
+            
+        </div>
+
+        <div class="mt-auto pt-10 text-center fade-in-up delay-400 w-full">
+            <p class="text-xs text-gray-500">© 2026 Comandante Urbano Passeios Aéreos</p>
+        </div>
+    </div>
+</body>
+</html>
